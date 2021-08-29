@@ -13,4 +13,6 @@ using MicroBlogApp.Models;
         }
 
         public DbSet<MicroBlogApp.Models.Person> Person { get; set; }
+
+        public DbSet<MicroBlogApp.Models.Message> Message { get; set; }
     }
